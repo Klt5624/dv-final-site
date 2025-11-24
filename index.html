@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kristy Thomas | Portfolio Coming Soon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+  <main class="container">
+    <header>
+      <h1 class="logo">Kristy Thomas</h1>
+      <p class="tagline">Web Design &amp; Front‑End Development</p>
+    </header>
+
+    <section class="content">
+      <h2 class="headline">Something beautiful is in the works.</h2>
+      <p class="subtext">
+        I&#39;m crafting a warm, story‑driven web portfolio that highlights advocacy,
+        creativity, and clean, modern design. Check back soon to see the full experience.
+      </p>
+
+      <div class="pill">
+        <span class="pill-dot"></span>
+        <span class="pill-text">Portfolio Launch: Coming Soon</span>
+      </div>
+
+      <a href="mailto:klt5624@psu.edu" class="cta">Notify Me When It&#39;s Live</a>
+    </section>
+
+    <section class="image-card">
+      <img
+        src="photo.png"
+        alt="Designer working on a laptop at a clean desk"
+      />
+      <div class="image-caption">
+        Future home of my projects, advocacy work, and passion for design.
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Kristy Thomas. Portfolio Coming Soon.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
