@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Break The Silence | About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/ribbon.svg" alt="Purple awareness ribbon icon" />
+        <span>Break The Silence</span>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="signs.html">Warning Signs</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a id="quickExit" href="javascript:void(0)" title="Quickly leave this website">Quick Exit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+<section class="section">
+  <div class="panel">
+    <h1>About this project</h1>
+    <p>
+      This website is an awareness and education project about domestic violence — created to be bold, direct, and empowering.
+      Domestic violence is not limited to one gender, age, income level, or background. It can happen to anyone.
+    </p>
+
+    <div class="grid-3" style="margin-top:14px;">
+      <div class="card">
+        <h3>What “abuse” can look like</h3>
+        <p class="small">
+          Physical harm is only one part. Many survivors describe control, fear, isolation, and constant monitoring long before
+          any visible injury.
+        </p>
+      </div>
+      <div class="card">
+        <h3>What support can look like</h3>
+        <p class="small">
+          Support is listening, believing, and helping someone explore options safely — without pressure or shame.
+        </p>
+      </div>
+      <div class="card">
+        <h3>What safety can look like</h3>
+        <p class="small">
+          Safety includes boundaries, trusted relationships, and access to resources — and it always includes choice.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="panel">
+    <h2>Myths vs facts (click to reveal)</h2>
+    <p class="small">This section uses JavaScript to show/hide answers.</p>
+
+    <div class="card">
+      <h3>Myth: “If it were really bad, they would just leave.”</h3>
+      <button class="btn primary" data-toggle="reveal" data-target="mf1">Reveal answer</button>
+      <div id="mf1" data-hidden="true" style="display:none; margin-top:10px;">
+        <p class="small">
+          Leaving can be the most dangerous time. Survivors may face financial control, threats, isolation, childcare barriers,
+          fear of retaliation, or lack of safe housing. Support + planning can reduce risk.
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px;">
+      <h3>Myth: “Abuse is only physical.”</h3>
+      <button class="btn primary" data-toggle="reveal" data-target="mf2">Reveal answer</button>
+      <div id="mf2" data-hidden="true" style="display:none; margin-top:10px;">
+        <p class="small">
+          Abuse can include emotional manipulation, stalking, financial control, intimidation, sexual coercion, and digital surveillance.
+          The goal is power and control.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Break The Silence • Bold awareness project</span>
+      <span><strong>Emergency:</strong> If you are in immediate danger, call local emergency services.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
